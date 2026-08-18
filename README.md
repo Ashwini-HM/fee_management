@@ -30,38 +30,40 @@ The system allows an administrator to securely log in, manage student informatio
 
 ## 📁 Project Structure
 
+```text
 smart-fee-management/
 │
 ├── src/
 │   └── main/
 │       ├── java/
-│       │   └── com/example/smart_fee_management/
-│       │       │
-│       │       ├── config/
-│       │       │   ├── PasswordConfig.java
-│       │       │   └── SecurityConfig.java
-│       │       │
-│       │       ├── controller/
-│       │       │   ├── PaymentController.java
-│       │       │   ├── StudentController.java
-│       │       │   └── UserController.java
-│       │       │
-│       │       ├── model/
-│       │       │   ├── Payment.java
-│       │       │   ├── Student.java
-│       │       │   └── User.java
-│       │       │
-│       │       ├── repository/
-│       │       │   ├── PaymentRepository.java
-│       │       │   ├── StudentRepository.java
-│       │       │   └── UserRepository.java
-│       │       │
-│       │       ├── service/
-│       │       │   ├── PaymentService.java
-│       │       │   ├── StudentService.java
-│       │       │   └── UserService.java
-│       │       │
-│       │       └── SmartFeeManagementApplication.java
+│       │   └── com/
+│       │       └── example/
+│       │           └── smart_fee_management/
+│       │               ├── config/
+│       │               │   ├── PasswordConfig.java
+│       │               │   └── SecurityConfig.java
+│       │               │
+│       │               ├── controller/
+│       │               │   ├── PaymentController.java
+│       │               │   ├── StudentController.java
+│       │               │   └── UserController.java
+│       │               │
+│       │               ├── model/
+│       │               │   ├── Payment.java
+│       │               │   ├── Student.java
+│       │               │   └── User.java
+│       │               │
+│       │               ├── repository/
+│       │               │   ├── PaymentRepository.java
+│       │               │   ├── StudentRepository.java
+│       │               │   └── UserRepository.java
+│       │               │
+│       │               ├── service/
+│       │               │   ├── PaymentService.java
+│       │               │   ├── StudentService.java
+│       │               │   └── UserService.java
+│       │               │
+│       │               └── SmartFeeManagementApplication.java
 │       │
 │       └── resources/
 │           ├── static/
@@ -75,6 +77,8 @@ smart-fee-management/
 ├── mvnw.cmd
 ├── pom.xml
 └── README.md
+```
+
 
 ---
 
